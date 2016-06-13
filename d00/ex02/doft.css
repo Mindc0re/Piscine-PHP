@@ -169,3 +169,61 @@ body
 	right: 685px;
 	top: 340px;
 }
+
+#The-Wall
+{
+	display: block;
+	width: 120px;
+	height: 70px;
+	position: absolute;
+	right: 660px;
+	top: 390px;
+	background-image: url(./resources/brick.jpg)
+}
+
+#Box_verte_moche
+{
+	font-size: 110%;
+	font-family: Verdana;
+	background-color: #86fd87;
+	border: 1px solid #86fd87;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 10px;
+	width: 600px;
+	height: 200px;
+	position: absolute;
+	left: 210px;
+	bottom: 230px;
+}
+
+#grand_mot
+{
+	font-family: Arial;
+	font-size: 230%;
+}
+
+#shadow_rouge
+{
+	text-shadow: 5px 5px 8px red;
+}
+
+#Jean_Neymar
+{
+	font-style: italic;
+}
+
+#Bondour
+{
+	font-style: oblique;
+}
+
+#box_reponse
+{
+	border: 2px #b1bfb1 inset;
+	width: 420px;
+}
+
+#bouton_reponse
+{
+	size: 200%;
+}
