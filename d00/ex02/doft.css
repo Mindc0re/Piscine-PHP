@@ -1,0 +1,171 @@
+body
+{
+	background-color: #4F4F4F;
+}
+
+#headimg
+{
+	width: 400px;
+}
+
+#p-head
+{
+	border: 1px solid #8F8F8F;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
+	padding-right: 650px;
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-left: 250px;
+	margin-right: 23%;
+	padding-bottom: 10px;
+	background-color: #8F8F8F;
+}
+
+#p-nav1
+{
+	border: 1px solid #8F8F8F;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
+	float: left;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 230px;
+	padding-bottom: 290px;
+	margin-left: 280px;
+	background-color: #8F8F8F;
+}
+
+#p-nav2
+{
+	border: 1px solid #8F8F8F;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
+	float: right;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 230px;
+	padding-bottom: 290px;
+	margin-right: 630px;
+	background-color: #8F8F8F;
+}
+
+#p-section
+{
+	border: 1px solid #8F8F8F;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
+	float: left;
+	padding-left: 10px;
+	padding-right: 1250px;
+	padding-top: 230px;
+	padding-bottom: 490px;
+	margin-left: 30px;
+	background-color: #8F8F8F;
+}
+
+#loupe
+{
+	position: absolute;
+	right: 620px;
+	top: 20px;
+}
+
+#croix
+{
+	position: absolute;
+	right: 600px;
+	top: 115px;
+}
+
+#reload
+{
+	width: 20px;
+	position: absolute;
+	right: 600px;
+	top: 25px;
+}
+
+#arrow
+{
+	width: 80px;
+	position: absolute;
+	left: 325px;
+	top: 200px;
+}
+
+#main
+{
+	width: 80px;
+	position: absolute;
+	left: 325px;
+	top: 300px;
+}
+
+#oeil
+{
+	width: 80px;
+	position: absolute;
+	left: 320px;
+	top: 390px;
+	border: 6px solid red;
+	border-radius: 5px;
+}
+
+#outil
+{
+	width: 80px;
+	position: absolute;
+	left: 325px;
+	top: 490px;
+}
+
+#chat-icon
+{
+	width: 80px;
+	position: absolute;
+	left: 325px;
+	top: 590px;
+}
+
+#cluster
+{
+	width: 48%;
+	position: absolute;
+	left: 495px;
+	top: 190px;
+}
+
+#box_chair
+{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left: 900px;
+	top: 600px;
+}
+
+#box_screen
+{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 1500px;
+	top: 600px;
+}
+
+#book
+{
+	width: 80px;
+	position: absolute;
+	right: 680px;
+	top: 200px;
+}
+
+#towel
+{
+	width: 70px;
+	position: absolute;
+	right: 685px;
+	top: 340px;
+}
