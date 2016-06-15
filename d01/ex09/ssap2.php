@@ -1,5 +1,46 @@
 #!/usr/bin/php
 <?PHP
+	function ft_isalpha($char, $type)
+	{
+		if ($type == 0)
+		{
+			if (($char >= 'a' && $char <= 'z') || ($char >= 'A' && $char <= 'Z'))
+				return (1);
+		}
+		else if ($type == 1)
+		{
+			if ($char >= '0' && $char <= '9')
+				return (1);
+		}
+		return (0);
+	}
+
+	function ft_strisalpha($str, $type)
+	{
+		$i = 0;
+		if ($type == 0)
+		{
+			while ($str[$i])
+			{
+				if (!ft_isalpha($str[$i], $type))
+					return (0);
+				else
+					$i++;
+			}
+		}
+		else if ($type == 1)
+		{
+			while ($str[$i])
+			{
+				if (!ft_isalpha($str[$i], $type))
+					return (0);
+				else
+					$i++;
+			}
+		}
+		return (1);
+	}
+
 	function tri(&$tab)
 	{
 		$check = 0;
@@ -71,7 +112,7 @@
 		$tmp = array();
 		foreach ($tab as $key)
 		{
-			if (ctype_alpha($key))
+			if (ft_strisalpha($key, 0))
 				print("$key\n");
 			else
 			{
@@ -83,7 +124,7 @@
 		$i = 0;
 		foreach ($tmp as $key)
 		{
-			if (ctype_alnum($key))
+			if (ft_strisalpha($key, 1))
 				print("$key\n");
 			else
 			{
