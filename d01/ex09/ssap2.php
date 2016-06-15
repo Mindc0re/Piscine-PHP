@@ -14,7 +14,7 @@
 		}
 		return (0);
 	}
-
+	
 	function ft_strisalpha($str, $type)
 	{
 		$i = 0;
@@ -47,7 +47,6 @@
 		$i = 0;
 		$next = 1;
 		$tmp;
-
 		while ($tab[$i])
 		{
 			if ($tab[$next])
@@ -94,7 +93,6 @@
 	{
 		$tab = array();
 		$i = 0;
-
 		foreach ($argv as $key) 
 		{
 			if ($key && strcmp($key, "ssap2.php") && strcmp($key, "./ssap2.php"))
@@ -137,7 +135,6 @@
 		foreach ($tab as $key)
 			print("$key\n");
 	}
-
 	$str_join = implode($argv, ' ');
 	$tab = ft_split($str_join);
 	$tab = reject_prog_name($tab);
