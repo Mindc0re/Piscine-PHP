@@ -93,28 +93,28 @@ if (preg_match_all("/ /", $regex) == 4 && preg_match_all("/ /", $regex) !== FALS
 	$reg_tab = explode(" ", $regex);
 	if (week($reg_tab[0]) == 1)
 	{
-		echo "Wrong Format week_day\n";
+		echo "Wrong Format\n";
 		exit(0);
 	}
 	if (preg_match_all("/[0-3]?[0-9]{1}/", $reg_tab[1]) == 1)
 		$day = $reg_tab[1];
 	else
 	{
-		echo "Wrong Format day_num\n";
+		echo "Wrong Format\n";
 		exit(0);
 	}
 	if (month($reg_tab[2]) != 0)
 		$month = month($reg_tab[2]);
 	else
 	{
-		echo "Wrong Format month\n";
+		echo "Wrong Format\n";
 		exit(0);
 	}
 	if (preg_match("/[0-9]{4}/", $reg_tab[3]) == 1)
 		$year = $reg_tab[3];
 	else
 	{
-		echo "Wrong Format year\n";
+		echo "Wrong Format\n";
 		exit(0);
 	}
 	if (preg_match_all("/:/", $reg_tab[4]) == 2)
@@ -126,7 +126,7 @@ if (preg_match_all("/ /", $regex) == 4 && preg_match_all("/ /", $regex) !== FALS
 	}
 	else
 	{
-		echo "Wrong Format hour\n";
+		echo "Wrong Format\n";
 		exit(0);
 	}
 	if ($hour != -1 && $minutes != -1 && $secondes != -1)
@@ -136,10 +136,10 @@ if (preg_match_all("/ /", $regex) == 4 && preg_match_all("/ /", $regex) !== FALS
 	}
 	else
 	{
-		echo "Wrong Format hour\n";
+		echo "Wrong Format\n";
 		exit(0);
 	}
 }
 else
-	echo "Wrong Format espaces\n";
+	echo "Wrong Format\n";
 ?>
