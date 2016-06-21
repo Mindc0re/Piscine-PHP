@@ -1,0 +1,19 @@
+html
+{
+	text-align: center;
+	background: url("http://wallpapercave.com/wp/Xlthv2v.png");
+	background-size: cover;
+}
+
+#page
+{
+	display: inline-block;
+}
+#site
+{
+	width: 95vw;
+	height: 30vw;
+	left : 2.5vw;
+	display: inline-block;
+	overflow: auto;
+}

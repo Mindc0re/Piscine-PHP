@@ -1,0 +1,26 @@
+body
+{
+	background: url("http://wallpapercave.com/wp/Xlthv2v.png");
+	background-size: 100%;
+	text-align: center;
+}
+
+.signup_success
+{
+	text-align: center;
+}
+
+.red
+{
+	color: red;
+}
+
+.blue
+{
+	color: blue;
+}
+
+.white
+{
+	color: white;
+}

@@ -1,0 +1,99 @@
+body
+{
+	display: inline-block;
+}
+h1
+{
+	color: black;
+	display: inline-block;
+	margin: 50px;
+}
+h3
+{
+	color: blue;
+}
+div
+{
+	display: inline-block;
+	position: relative;
+}
+a
+{
+	color: blue;
+	text-decoration:none;
+	text-rendering: optimizeLegibility;
+}
+p
+{
+	text-align:center;
+	margin: auto;
+}
+#page
+{
+	background: url("http://wallpapercave.com/wp/Xlthv2v.png");
+	background-size: cover;
+	display: inline-block;
+}
+#menu
+{
+	width: 95vw;
+	height:5vw;
+	display: inline-block;
+	position: auto;
+}
+#signin_form
+{
+	text-align: center;
+}
+#site
+{
+	width: 95vw;
+	height: 30vw;
+	left : 2.5vw;
+	display: inline-block;
+	overflow: auto;
+
+}
+#site2
+{
+	width: 95vw;
+	height: 40vw;
+	left : 2.5vw;
+	display: inline-block;
+
+}
+#categories
+{
+	width: 95vw;
+	height: 20vw;
+	position: auto;
+	left : 50px;
+	display: inline-block;
+}
+#shop
+{
+	width: 10vw;
+	height: 10vw;
+	margin: 20px;
+}
+#preview
+{
+	width: 10vw;
+	height: 10vw;
+	display: inline-block;
+}
+#sale
+{
+	width: 35vw;
+	height: 25vw;
+}
+#cat
+{
+	display: inline-block;
+	margin: 50px;
+}
+#affbasket
+{
+	color: red;
+	text-align: center;
+}
