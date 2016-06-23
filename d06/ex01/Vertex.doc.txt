@@ -1,0 +1,18 @@
+<- Vertex ----------------------------------------------------------------------
+
+The Vertex class allows you to create a vertex (a point's representation with coordinates)
+
+An instance of Vertex must be created with AT LEAST :
+
+1- Its abscissa 'x' as a float
+2- Its ordinate 'y' as a float
+3- Its depth 'z' as a float
+
+Additional values can also be specified :
+
+4- Its homogeneous coordinate 'w' as a float
+5 - Its color 'color' as an instance of Color (see Color::doc)
+
+An instance of Vertex may be created as "new Vertex ( array ('x' => 1.0, 'y' => 1.0, 'z' => 1.0) )" (adding 'w' and 'color' if necessary)
+
+---------------------------------------------------------------------- Vertex ->
