@@ -84,7 +84,6 @@ function get_cookie()
 {
 	var i = 0;
 	var split = document.cookie.split(';');
-	console.log(document.cookie);
 	if (split[i][0] != 'a')
 		return;
 	var string = split[i].slice(3, split[i].length)
