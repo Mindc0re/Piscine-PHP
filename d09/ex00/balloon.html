@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Javascript</title>
+		<style>
+			#balloon
+			{
+				background: red;
+				height: 200px;
+				width: 200px;
+				border-radius: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="balloon" onclick="bigger()" onmouseleave="lower()"></div>
+		<script>
+			var balloon = document.getElementById("balloon");
+			var actual_color = "red";
+
+			function bigger()
+			{
+				var b_width = balloon.offsetWidth;
+				var b_height = balloon.offsetHeight;
+				if (actual_color == "red")
+				{
+					balloon.setAttribute("style", "background: green");
+					actual_color = "green";
+				}
+				else if (actual_color == "green")
+				{
+					balloon.setAttribute("style", "background: blue");
+					actual_color = "blue";
+				}
+				else if (actual_color == "blue")
+				{
+					balloon.setAttribute("style", "background: red");
+					actual_color = "red";
+				}
+				if (b_width > 420 || b_width > 420)
+				{
+					balloon.style.width = "200px";	
+					balloon.style.height = "200px";	
+				}
+				else
+				{
+					balloon.style.width = b_width + 10 + "px";
+					balloon.style.height = b_height + 10 + "px";
+				}
+			}
+
+			function lower()
+			{
+				var b_width = balloon.offsetWidth;
+				var b_height = balloon.offsetHeight;
+				if (actual_color == "red")
+				{
+					balloon.setAttribute("style", "background: blue");
+					actual_color = "blue";
+				}
+				else if (actual_color == "green")
+				{
+					balloon.setAttribute("style", "background: red");
+					actual_color = "red";
+				}
+				else if (actual_color == "blue")
+				{
+					balloon.setAttribute("style", "background: green");
+					actual_color = "green";
+				}
+				if (b_width >= 205 || b_height >= 205)
+				{
+					balloon.style.width = (b_width - 5) + "px";
+					balloon.style.height = (b_height - 5) + "px";
+				}
+			}
+		</script>
+	</body>
+</html>
